@@ -10,6 +10,3 @@ I am a biostatistician with experience in clinical trials and observational stud
 - Experience with longitudinal studies, survey analysis, and cross-sectional designs
 - Proficient in R, Quarto, and reproducible research workflows
 
-## Contact
-
-<!-- TODO: Add contact details or form -->
