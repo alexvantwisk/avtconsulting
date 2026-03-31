@@ -2,22 +2,50 @@
 title: "Services"
 ---
 
-I work with postgraduate students and researchers in medical and public health fields. My services cover the full research lifecycle.
+I work with postgraduate students and researchers in medical and public health fields. Whether you're planning a study, analysing data, or writing up results, I can help with the statistical side of your project.
+
+::: {.service-section-green}
 
 ## Study Design
 
-- Sample size and power calculations
-- Randomisation strategies
-- Study protocol statistical sections
+Getting the design right from the start saves time and strengthens your research. I can help you with:
+
+- **Sample size and power calculations** — determine how many participants you need to detect a meaningful effect
+- **Randomisation strategies** — design appropriate allocation schemes for clinical trials
+- **Study protocol statistical sections** — write the statistical methods section of your protocol with the detail reviewers expect
+
+:::
+
+::: {.service-section-sage}
 
 ## Data Analysis
 
-- Exploratory data analysis
-- Regression modelling (linear, logistic, survival, mixed-effects)
-- Survey data analysis with complex sampling designs
+I work with a range of methods commonly used in medical and public health research:
+
+- **Exploratory data analysis** — understand your data before formal modelling
+- **Regression modelling** — linear, logistic, survival, and mixed-effects models for longitudinal or clustered data
+- **Survey data analysis** — handle complex sampling designs, weights, and stratification correctly
+
+:::
+
+::: {.service-section-teal}
 
 ## Reporting
 
-- Statistical results sections for manuscripts
-- Tables and figures for publication
-- Reproducible analysis reports
+Clear statistical reporting is essential for publication and for your examiners:
+
+- **Statistical results sections** — write or review the results section of your manuscript
+- **Tables and figures** — produce publication-ready output that meets journal requirements
+- **Reproducible analysis reports** — receive a complete, documented analysis you can re-run and verify
+
+:::
+
+::: {.cta-section}
+
+## Not sure what you need?
+
+That's completely fine — many students aren't sure which statistical methods apply to their project, and that's exactly what I'm here to help with. Just send me a brief description and we'll figure it out together.
+
+[Email me about your project](mailto:your.email@example.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20(e.g.%20PhD%20Public%20Health):%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
+
+:::
