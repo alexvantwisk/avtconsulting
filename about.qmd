@@ -5,7 +5,7 @@ title: "About"
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/headshot.jpg){.about-photo fig-alt="Alexander van Twisk"}
+![](images/headshot.png){.about-photo fig-alt="Alexander van Twisk"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}

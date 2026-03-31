@@ -8,7 +8,7 @@ toc: false
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/headshot.jpg){.hero-photo fig-alt="Alexander van Twisk"}
+![](images/headshot.png){.hero-photo fig-alt="Alexander van Twisk"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
