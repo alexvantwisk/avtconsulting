@@ -3,8 +3,9 @@ project:
   output-dir: _site
 
 website:
-  title: "Alexander van Twisk — Statistical Consulting"
+  title: "Alexander van Twisk"
   navbar:
+    background: primary
     left:
       - href: index.qmd
         text: Home
@@ -12,9 +13,21 @@ website:
         text: Services
       - href: about.qmd
         text: About
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: envelope
+        href: "mailto:your.email@example.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20(e.g.%20PhD%20Public%20Health):%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:"
+        text: "Get in Touch"
+        aria-label: "Email Alexander"
+  page-footer:
+    left: "© 2026 Alexander van Twisk"
+    right:
+      - icon: envelope
+        href: "mailto:your.email@example.com"
+        aria-label: "Email"
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: [cosmo, styles.scss]
     toc: true
