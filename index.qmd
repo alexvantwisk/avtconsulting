@@ -1,14 +1,72 @@
 ---
 title: "Statistical Consulting"
+toc: false
 ---
 
-Welcome to my statistical consulting practice. I provide biostatistical support for postgraduate researchers in the medical and public health sciences.
+::: {.hero}
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+![](images/headshot.jpg){.hero-photo fig-alt="Alexander van Twisk"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
+# I help researchers navigate the statistics in their work {.unlisted}
+
+[Biostatistical support for postgraduate students and researchers in medical and public health sciences. From study design through to publication — I'm here to help you get the statistics right.]{.lead}
+
+[Get in touch](mailto:your.email@example.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20(e.g.%20PhD%20Public%20Health):%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
+
+:::
+
+::::
+
+:::
 
 ## What I Offer
 
-- Study design and sample size calculation
-- Statistical analysis planning
-- Data analysis and interpretation
-- Results reporting and manuscript support
+:::: {.grid}
 
-[Learn more about my services](services.qmd){.btn .btn-primary}
+::: {.g-col-12 .g-col-md-4}
+::: {.service-card}
+### Study Design
+
+Sample size calculations, randomisation strategies, and statistical sections for study protocols.
+
+[Learn more &rarr;](services.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.service-card .service-card-sage}
+### Data Analysis
+
+Regression modelling, survival analysis, mixed-effects models, and complex survey designs.
+
+[Learn more &rarr;](services.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.service-card .service-card-teal}
+### Reporting
+
+Publication-ready results sections, tables, figures, and reproducible analysis reports.
+
+[Learn more &rarr;](services.qmd)
+:::
+:::
+
+::::
+
+::: {.cta-section}
+
+## Ready to get started?
+
+Send me a brief description of your project and I'll get back to you.
+
+[Email me about your project](mailto:your.email@example.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20(e.g.%20PhD%20Public%20Health):%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
+
+:::
