@@ -1,0 +1,14 @@
+---
+title: "Statistical Consulting"
+---
+
+Welcome to my statistical consulting practice. I provide biostatistical support for postgraduate researchers in the medical and public health sciences.
+
+## What I Offer
+
+- Study design and sample size calculation
+- Statistical analysis planning
+- Data analysis and interpretation
+- Results reporting and manuscript support
+
+[Learn more about my services](services.qmd){.btn .btn-primary}

@@ -1,0 +1,23 @@
+---
+title: "Services"
+---
+
+I work with postgraduate students and researchers in medical and public health fields. My services cover the full research lifecycle.
+
+## Study Design
+
+- Sample size and power calculations
+- Randomisation strategies
+- Study protocol statistical sections
+
+## Data Analysis
+
+- Exploratory data analysis
+- Regression modelling (linear, logistic, survival, mixed-effects)
+- Survey data analysis with complex sampling designs
+
+## Reporting
+
+- Statistical results sections for manuscripts
+- Tables and figures for publication
+- Reproducible analysis reports

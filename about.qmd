@@ -1,0 +1,15 @@
+---
+title: "About"
+---
+
+I am a biostatistician with experience in clinical trials and observational studies. I consult with postgraduate students and researchers at universities, helping them navigate the statistical aspects of their research projects.
+
+## Background
+
+- Biostatistics expertise in clinical trials
+- Experience with longitudinal studies, survey analysis, and cross-sectional designs
+- Proficient in R, Quarto, and reproducible research workflows
+
+## Contact
+
+<!-- TODO: Add contact details or form -->
