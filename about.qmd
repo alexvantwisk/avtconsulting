@@ -2,11 +2,33 @@
 title: "About"
 ---
 
-I am a biostatistician with experience in clinical trials and observational studies. I consult with postgraduate students and researchers at universities, helping them navigate the statistical aspects of their research projects.
+:::: {.grid}
 
-## Background
+::: {.g-col-12 .g-col-md-4}
+![](images/headshot.jpg){.about-photo fig-alt="Alexander van Twisk"}
+:::
 
-- Biostatistics expertise in clinical trials
-- Experience with longitudinal studies, survey analysis, and cross-sectional designs
-- Proficient in R, Quarto, and reproducible research workflows
+::: {.g-col-12 .g-col-md-8}
 
+I'm a biostatistician who enjoys helping researchers make sense of their data. I know that statistics can feel overwhelming — especially when it's not your primary field — and I aim to make the process straightforward and collaborative. My goal is for you to understand the analysis behind your results, not just receive a set of numbers.
+
+:::
+
+::::
+
+## Expertise
+
+- Clinical trials — design, analysis, and reporting
+- Longitudinal and repeated-measures studies
+- Survey analysis with complex sampling designs
+- Cross-sectional and observational study designs
+
+## Tools
+
+- **R** for statistical computing and data visualisation
+- **Quarto** for reproducible reports and documents
+- **renv** for reproducible analysis environments
+
+## Experience
+
+I work primarily in clinical trials and also consult with postgraduate students and researchers at universities, helping them navigate the statistical aspects of their research projects in the medical and public health sciences.
