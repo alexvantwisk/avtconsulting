@@ -28,7 +28,7 @@ $footer-fg: $cream;
 /*-- scss:rules --*/
 
 // ---- Navbar email CTA button ----
-.navbar .navbar-nav .nav-item:last-child .nav-link {
+.navbar .navbar-nav:not(.me-auto) .nav-item:last-child .nav-link {
   background-color: $sand;
   color: #fff;
   border-radius: 6px;
