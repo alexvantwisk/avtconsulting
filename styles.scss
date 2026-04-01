@@ -28,7 +28,7 @@ $footer-fg: $cream;
 /*-- scss:rules --*/
 
 // ---- Navbar email CTA button ----
-.navbar .nav-link:has(.bi-envelope) {
+.navbar .nav-link[href^="mailto:"] {
   background-color: $sand;
   color: #fff;
   border-radius: 6px;
