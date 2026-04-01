@@ -7,11 +7,9 @@ toc: false
 
 I work with postgraduate students and researchers in medical and public health fields. If you're looking for statistical support at any stage of your project, I'd be happy to hear from you.
 
-I typically respond within [X business days — update this].
-
 You don't need to have your statistics figured out before reaching out — that's what I'm here for.
 
-[Email me about your project](mailto:your.email@example.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20(e.g.%20PhD%20Public%20Health):%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta .btn-cta-large}
+[Email me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20(e.g.%20PhD%20Public%20Health):%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta .btn-cta-large}
 
 ::: {.what-to-include}
 
