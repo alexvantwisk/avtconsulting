@@ -28,6 +28,9 @@ website:
       - icon: envelope
         href: "mailto:vantwiska@gmail.com"
         aria-label: "Email"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/alexander-van-twisk"
+        aria-label: "LinkedIn"
 
 format:
   html:
