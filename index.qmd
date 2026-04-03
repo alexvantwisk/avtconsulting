@@ -17,7 +17,7 @@ toc: false
 
 [Biostatistical support for postgraduate students and researchers in medical and public health sciences. From study design through to publication — I'm here to help you get the statistics right.]{.lead}
 
-[Get in touch](mailto:your.email@example.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20(e.g.%20PhD%20Public%20Health):%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
+[Get in touch](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20(e.g.%20PhD%20Public%20Health):%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
 
 :::
 
@@ -67,6 +67,6 @@ Publication-ready results sections, tables, figures, and reproducible analysis r
 
 Send me a brief description of your project and I'll get back to you.
 
-[Email me about your project](mailto:your.email@example.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20(e.g.%20PhD%20Public%20Health):%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
+[Email me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20(e.g.%20PhD%20Public%20Health):%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
 
 :::
