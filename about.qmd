@@ -10,7 +10,7 @@ title: "About"
 
 ::: {.g-col-12 .g-col-md-8}
 
-I'm a biostatistician based in Pretoria, South Africa. I work in clinical trials during the day and consult with researchers on the side — helping them navigate the statistical aspects of their work in the medical and public health sciences.
+I'm a biostatistician based in Pretoria, South Africa. I work in clinical trials during the day and consult with researchers on the side, helping them navigate the statistical aspects of their work in the medical and public health sciences.
 
 I know that statistics can feel overwhelming, especially when it's not your primary field. I aim to make the process straightforward and collaborative. My goal is for you to understand the analysis behind your results, not just receive a set of numbers.
 
@@ -27,10 +27,10 @@ I know that statistics can feel overwhelming, especially when it's not your prim
 
 ## Experience
 
-**Associate Biostatistician, Scigenix**
-Working on clinical trials at a contract research organisation — biostatistical consulting, clinical trial randomisation, data validation programming, and Shiny app development.
+**Associate Biostatistician, Contract Research Organisation**
+Working on clinical trials: biostatistical consulting, clinical trial randomisation, data validation programming, and Shiny app development.
 
-**Data Capturer, Stellenbosch University — Faculty of Medicine and Health Sciences**
+**Data Capturer, Stellenbosch University (Faculty of Medicine and Health Sciences)**
 Captured over 600 surveys onto REDCap as part of a clinical study by the Universities of Oxford and Stellenbosch on mindfulness training in undergraduate medical students.
 
 **Locum Mathematics Teacher, Pretoria Boys High School**
@@ -39,11 +39,11 @@ Taught high school mathematics across multiple grades.
 **Teaching Assistant, University of Pretoria**
 Supported undergraduate and postgraduate teaching in the Department of Statistics for 1.5 years.
 
-I don't just run your analysis — my teaching background means I make sure you understand it.
+I don't just run your analysis. My teaching background means I make sure you understand it.
 
 ## Areas I work in
 
-- Clinical trials — design, analysis, and reporting
+- Clinical trials: design, analysis, and reporting
 - Longitudinal and repeated-measures studies
 - Survey analysis with complex sampling designs
 - Cross-sectional and observational study designs

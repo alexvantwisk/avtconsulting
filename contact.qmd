@@ -5,7 +5,7 @@ toc: false
 
 ::: {.contact-section}
 
-Whether you're just starting to plan your study or you're staring at a dataset wondering what to do next — I'd be happy to hear from you. You don't need to have your statistics figured out before reaching out. That's literally what I'm here for.
+Whether you're just starting to plan your study or you're staring at a dataset wondering what to do next, I'd be happy to hear from you. You don't need to have your statistics figured out before reaching out. That's literally what I'm here for.
 
 [Email me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta .btn-cta-large}
 
@@ -15,7 +15,7 @@ Whether you're just starting to plan your study or you're staring at a dataset w
 
 - Your name and affiliation (e.g. PhD candidate, University of Cape Town)
 - A brief description of your research project
-- Where you're at in the process — proposal, data collection, analysis, or writing up
+- Where you're at in the process (proposal, data collection, analysis, or writing up)
 - Any deadlines you're working toward
 
 :::
@@ -24,7 +24,7 @@ Whether you're just starting to plan your study or you're staring at a dataset w
 
 ### What happens next
 
-I'll reply within a few working days. We'll have a short conversation — usually over email — to understand your project and figure out how I can help. No obligations, no jargon.
+I'll reply within a few working days. We'll have a short conversation (usually over email) to understand your project and figure out how I can help. No obligations, no jargon.
 
 :::
 

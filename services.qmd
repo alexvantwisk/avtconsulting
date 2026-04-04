@@ -6,7 +6,7 @@ title: "Services"
 
 Every research project is different, and so is every request I get. Some researchers bring me in at the start to help plan their study. Others come to me with a dataset and a deadline. Many need help writing up results their supervisor or journal reviewers will accept. Some want support through the entire process.
 
-There's no wrong time to ask for help — here's what I can do at each stage.
+There's no wrong time to ask for help. Here's what I can do at each stage.
 
 ::: {.service-section-green}
 
@@ -16,9 +16,9 @@ There's no wrong time to ask for help — here's what I can do at each stage.
 
 Getting the design right from the start saves time and strengthens your research. I can help you with:
 
-- **Sample size and power calculations** — determine how many participants you need to detect a meaningful effect
-- **Randomisation strategies** — design appropriate allocation schemes for clinical trials
-- **Study protocol statistical sections** — write the statistical methods section of your protocol with the detail reviewers expect
+- **Sample size and power calculations**: determine how many participants you need to detect a meaningful effect
+- **Randomisation strategies**: design appropriate allocation schemes for clinical trials
+- **Study protocol statistical sections**: write the statistical methods section of your protocol with the detail reviewers expect
 
 :::
 
@@ -30,9 +30,9 @@ Getting the design right from the start saves time and strengthens your research
 
 I work with a range of methods commonly used in medical and public health research:
 
-- **Exploratory data analysis** — understand your data before formal modelling
-- **Regression modelling** — linear, logistic, survival, and mixed-effects models for longitudinal or clustered data
-- **Survey data analysis** — handle complex sampling designs, weights, and stratification correctly
+- **Exploratory data analysis**: understand your data before formal modelling
+- **Regression modelling**: linear, logistic, survival, and mixed-effects models for longitudinal or clustered data
+- **Survey data analysis**: handle complex sampling designs, weights, and stratification correctly
 
 :::
 
@@ -44,21 +44,21 @@ I work with a range of methods commonly used in medical and public health resear
 
 Clear statistical reporting is essential for publication and for your examiners:
 
-- **Statistical results sections** — write or review the results section of your manuscript
-- **Tables and figures** — produce publication-ready output that meets journal requirements
-- **Reproducible analysis reports** — receive a complete, documented analysis you can re-run and verify
+- **Statistical results sections**: write or review the results section of your manuscript
+- **Tables and figures**: produce publication-ready output that meets journal requirements
+- **Reproducible analysis reports**: receive a complete, documented analysis you can re-run and verify
 
 :::
 
 ## Or bring me in for the whole journey
 
-If you'd like one person handling the statistics from start to finish — from your protocol's sample size calculation through to the results tables in your final manuscript — I can do that too. Having a single statistician across the project means nothing gets lost in translation between stages.
+If you'd like one person handling the statistics from start to finish, from your protocol's sample size calculation through to the results tables in your final manuscript, I can do that too. Having a single statistician across the project means nothing gets lost in translation between stages.
 
 ::: {.cta-section}
 
 ## Not sure what you need?
 
-That's completely fine — many researchers aren't sure which statistical methods apply to their project, and that's exactly what I'm here to help with. Just send me a brief description and we'll figure it out together.
+That's completely fine. Many researchers aren't sure which statistical methods apply to their project, and that's exactly what I'm here to help with. Just send me a brief description and we'll figure it out together.
 
 [Email me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
 

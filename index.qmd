@@ -15,9 +15,9 @@ toc: false
 
 # The best time to call a biostatistician is before you start. {.unlisted}
 
-[The second-best time? Right now — wherever you are in your research.]{.follow-up}
+[The second-best time? Right now, wherever you are in your research.]{.follow-up}
 
-[I'm Alex van Twisk, a biostatistician helping researchers in the medical and public health sciences get the statistics right — from study design through to publication.]{.lead}
+[I'm Alex van Twisk, a biostatistician helping researchers in the medical and public health sciences get the statistics right, from study design through to publication.]{.lead}
 
 [Tell me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
 
@@ -29,7 +29,7 @@ toc: false
 
 ## Your research, your terms
 
-Whether you need a hand with one piece of the puzzle or a partner for the whole journey — I'll meet you where you are.
+Whether you need a hand with one piece of the puzzle or a partner for the whole journey, I'll meet you where you are.
 
 :::: {.grid}
 
@@ -73,7 +73,7 @@ Need publication-ready tables, figures, or a results section your reviewers will
 ::: {.credibility-card}
 #### Clinical trials experience
 
-Associate Biostatistician at Scigenix, a clinical research organisation specialising in trial design and analysis.
+Associate Biostatistician at a clinical research organisation specialising in trial design and analysis.
 :::
 :::
 
@@ -89,7 +89,7 @@ MSc Biostatistics (Cum Laude), BScHons Biostatistics (With Distinction), and a B
 ::: {.credibility-card}
 #### Teaching background
 
-A postgraduate teaching qualification, university teaching assistant, and mathematics teacher. I explain things clearly — not just run your analysis.
+A postgraduate teaching qualification, university teaching assistant, and mathematics teacher. I explain things clearly, not just run your analysis.
 :::
 :::
 
@@ -107,7 +107,7 @@ Every analysis in R with Quarto reports you can verify, re-run, and hand to your
 
 ## Let's figure it out together
 
-You don't need to know what statistical method you need — that's my job. Just tell me about your project.
+You don't need to know what statistical method you need. That's my job. Just tell me about your project.
 
 [Email me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
 
