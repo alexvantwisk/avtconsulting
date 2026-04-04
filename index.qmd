@@ -73,7 +73,7 @@ Need publication-ready tables, figures, or a results section your reviewers will
 ::: {.credibility-card}
 #### Clinical trials experience
 
-Associate Biostatistician at a clinical research organisation specialising in trial design and analysis.
+Associate Biostatistician at a contract research organisation specialising in trial design and analysis.
 :::
 :::
 
@@ -107,7 +107,7 @@ Every analysis in R with Quarto reports you can verify, re-run, and hand to your
 
 ## Let's figure it out together
 
-You don't need to know what statistical method you need. That's my job. Just tell me about your project.
+You don't need to know what statistical method you need. Just tell me about your project and we can work together to find what's best for your research.
 
 [Email me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
 
