@@ -5,30 +5,53 @@ title: "About"
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/headshot.png){.about-photo fig-alt="Alexander van Twisk"}
+![](images/headshot.png){.about-photo fig-alt="Alex van Twisk"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
 
-I'm a biostatistician who enjoys helping researchers make sense of their data. I know that statistics can feel overwhelming — especially when it's not your primary field — and I aim to make the process straightforward and collaborative. My goal is for you to understand the analysis behind your results, not just receive a set of numbers.
+I'm a biostatistician based in Pretoria, South Africa. I work in clinical trials during the day and consult with researchers on the side — helping them navigate the statistical aspects of their work in the medical and public health sciences.
+
+I know that statistics can feel overwhelming, especially when it's not your primary field. I aim to make the process straightforward and collaborative. My goal is for you to understand the analysis behind your results, not just receive a set of numbers.
 
 :::
 
 ::::
 
-## Expertise
+## Education
+
+- **MSc Biostatistics** — Stellenbosch University (Cum Laude, 2025)
+- **BScHons Biostatistics** — University of Pretoria (With Distinction, 2023)
+- **PGCE Further Education and Training** — University of Pretoria (With Distinction, 2022)
+- **BSc Applied Mathematics** — University of Pretoria (2021)
+
+## Experience
+
+**Associate Biostatistician, Scigenix**
+Working on clinical trials at a contract research organisation — biostatistical consulting, clinical trial randomisation, data validation programming, and Shiny app development.
+
+**Data Capturer, Stellenbosch University — Faculty of Medicine and Health Sciences**
+Captured over 600 surveys onto REDCap as part of a clinical study by the Universities of Oxford and Stellenbosch on mindfulness training in undergraduate medical students.
+
+**Locum Mathematics Teacher, Pretoria Boys High School**
+Taught high school mathematics across multiple grades.
+
+**Teaching Assistant, University of Pretoria**
+Supported undergraduate and postgraduate teaching in the Department of Statistics for 1.5 years.
+
+I don't just run your analysis — my teaching background means I make sure you understand it.
+
+## Areas I work in
 
 - Clinical trials — design, analysis, and reporting
 - Longitudinal and repeated-measures studies
 - Survey analysis with complex sampling designs
 - Cross-sectional and observational study designs
+- Sample size and power calculations
+- Reproducible statistical reporting
 
 ## Tools
 
 - **R** for statistical computing and data visualisation
 - **Quarto** for reproducible reports and documents
 - **renv** for reproducible analysis environments
-
-## Experience
-
-I work primarily in clinical trials and also consult with postgraduate students and researchers at universities, helping them navigate the statistical aspects of their research projects in the medical and public health sciences.

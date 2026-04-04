@@ -8,16 +8,18 @@ toc: false
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/headshot.png){.hero-photo fig-alt="Alexander van Twisk"}
+![](images/headshot.png){.hero-photo fig-alt="Alex van Twisk"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
 
-# I help researchers navigate the statistics in their work {.unlisted}
+# The best time to call a biostatistician is before you start. {.unlisted}
 
-[Biostatistical support for postgraduate students and researchers in medical and public health sciences. From study design through to publication — I'm here to help you get the statistics right.]{.lead}
+[The second-best time? Right now — wherever you are in your research.]{.follow-up}
 
-[Get in touch](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20(e.g.%20PhD%20Public%20Health):%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
+[I'm Alex van Twisk, a biostatistician helping researchers in the medical and public health sciences get the statistics right — from study design through to publication.]{.lead}
+
+[Tell me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
 
 :::
 
@@ -25,7 +27,9 @@ toc: false
 
 :::
 
-## What I Offer
+## Your research, your terms
+
+Whether you need a hand with one piece of the puzzle or a partner for the whole journey — I'll meet you where you are.
 
 :::: {.grid}
 
@@ -33,7 +37,7 @@ toc: false
 ::: {.service-card}
 ### Study Design
 
-Sample size calculations, randomisation strategies, and statistical sections for study protocols.
+Starting a new study or writing a proposal? This is the ideal time to get statistical input. Sample size calculations, randomisation strategies, and protocol stats sections.
 
 [Learn more &rarr;](services.qmd)
 :::
@@ -43,7 +47,7 @@ Sample size calculations, randomisation strategies, and statistical sections for
 ::: {.service-card .service-card-sage}
 ### Data Analysis
 
-Regression modelling, survival analysis, mixed-effects models, and complex survey designs.
+Already have data? I work with regression, survival analysis, mixed-effects models, complex survey designs, and more.
 
 [Learn more &rarr;](services.qmd)
 :::
@@ -53,7 +57,7 @@ Regression modelling, survival analysis, mixed-effects models, and complex surve
 ::: {.service-card .service-card-teal}
 ### Reporting
 
-Publication-ready results sections, tables, figures, and reproducible analysis reports.
+Need publication-ready tables, figures, or a results section your reviewers will accept? I can help with that too.
 
 [Learn more &rarr;](services.qmd)
 :::
@@ -61,12 +65,50 @@ Publication-ready results sections, tables, figures, and reproducible analysis r
 
 ::::
 
+## Why work with me
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-3}
+::: {.credibility-card}
+#### Clinical trials experience
+
+Associate Biostatistician at Scigenix, a clinical research organisation specialising in trial design and analysis.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-3}
+::: {.credibility-card}
+#### Formal training
+
+MSc Biostatistics (Cum Laude), BScHons Biostatistics (With Distinction), and a BSc in Applied Mathematics.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-3}
+::: {.credibility-card}
+#### Teaching background
+
+A postgraduate teaching qualification, university teaching assistant, and mathematics teacher. I explain things clearly — not just run your analysis.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-3}
+::: {.credibility-card}
+#### Reproducible workflow
+
+Every analysis in R with Quarto reports you can verify, re-run, and hand to your supervisor with confidence.
+:::
+:::
+
+::::
+
 ::: {.cta-section}
 
-## Ready to get started?
+## Let's figure it out together
 
-Send me a brief description of your project and I'll get back to you.
+You don't need to know what statistical method you need — that's my job. Just tell me about your project.
 
-[Email me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20(e.g.%20PhD%20Public%20Health):%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
+[Email me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
 
 :::

@@ -5,7 +5,8 @@ project:
     - "*.qmd"
 
 website:
-  title: "Alexander van Twisk"
+  title: "Alex van Twisk | Biostatistical Consulting"
+  description: "Biostatistical consulting for researchers in medical and public health sciences. Study design, data analysis, and reporting support."
   navbar:
     background: primary
     left:
