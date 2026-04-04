@@ -49,9 +49,3 @@ I don't just run your analysis. My teaching background means I make sure you und
 - Cross-sectional and observational study designs
 - Sample size and power calculations
 - Reproducible statistical reporting
-
-## Tools
-
-- **R** for statistical computing and data visualisation
-- **Quarto** for reproducible reports and documents
-- **renv** for reproducible analysis environments
