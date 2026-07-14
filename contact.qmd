@@ -1,6 +1,6 @@
 ---
 title: "Let's Talk About Your Project"
-toc: false
+description: "Get in touch about your research project. The initial consultation is free, with no obligations."
 ---
 
 ::: {.contact-section}

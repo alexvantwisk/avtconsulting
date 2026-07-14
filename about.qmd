@@ -1,11 +1,12 @@
 ---
 title: "About"
+description: "Alex van Twisk is a biostatistician (MSc Biostatistics, Cum Laude) based in Pretoria, South Africa, with clinical trials experience and a teaching background."
 ---
 
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/headshot.png){.about-photo fig-alt="Alex van Twisk"}
+![](images/headshot.jpg){.about-photo fig-alt="Alex van Twisk"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
