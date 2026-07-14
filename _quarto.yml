@@ -4,9 +4,17 @@ project:
   render:
     - "*.qmd"
 
+lang: en
+
 website:
   title: "AVT Consulting"
   description: "Biostatistical consulting for researchers in medical and public health sciences. Study design, data analysis, and reporting support."
+  site-url: https://alexvantwisk.github.io/avtconsulting
+  favicon: images/favicon.png
+  open-graph: true
+  twitter-card: true
+  image: images/social-card.png
+  google-analytics: "G-3EB0K5GDXG"
   navbar:
     background: primary
     left:
@@ -16,18 +24,19 @@ website:
         text: Services
       - href: about.qmd
         text: About
-      - href: contact.qmd
-        text: Contact
     right:
       - icon: envelope
-        href: "mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20(e.g.%20PhD%20Public%20Health):%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:"
+        href: contact.qmd
         text: "Get in Touch"
-        aria-label: "Email Alexander"
+        aria-label: "Get in touch"
   page-footer:
     left: "© 2026 Alexander van Twisk"
+    center:
+      - href: privacy.qmd
+        text: Privacy
     right:
       - icon: envelope
-        href: "mailto:vantwiska@gmail.com"
+        href: "mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:"
         aria-label: "Email"
       - icon: linkedin
         href: "https://www.linkedin.com/in/alexander-van-twisk"
@@ -36,4 +45,4 @@ website:
 format:
   html:
     theme: [cosmo, styles.scss]
-    toc: true
+    toc: false

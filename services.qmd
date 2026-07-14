@@ -1,5 +1,6 @@
 ---
 title: "Services"
+description: "Statistical consulting services: sample size and power calculations, regression and survival analysis, survey data analysis, and publication-ready statistical reporting."
 ---
 
 ## I meet you where you are
@@ -54,12 +55,42 @@ Clear statistical reporting is essential for publication and for your examiners:
 
 If you'd like one person handling the statistics from start to finish, from your protocol's sample size calculation through to the results tables in your final manuscript, I can do that too. Having a single statistician across the project means nothing gets lost in translation between stages.
 
+::: {.faq-section}
+
+## Frequently asked questions
+
+### How much does it cost?
+
+Rates are student-friendly. After the free initial consultation you'll receive a clear quote for the work before anything begins, so there are no surprises.
+
+### How long will it take?
+
+It depends on the scope: a sample size calculation might take a few days, while a full analysis with reporting can take a few weeks. Tell me your deadlines up front and I'll let you know honestly whether they're feasible.
+
+### What software do you use?
+
+All analysis is done in R, delivered as a reproducible Quarto report you can re-run and verify. Your data can come from wherever it lives: REDCap, Excel, SPSS, Stata, or CSV exports all work, and you don't need to use R yourself.
+
+### Will you be a co-author on my paper?
+
+That's up to you and your institution's guidelines. For most projects an acknowledgement is appropriate; where the statistical contribution is substantial, co-authorship under the ICMJE criteria can make sense. We'll agree on this up front.
+
+### Is my data kept confidential?
+
+Yes. Your data is stored securely, never shared, handled in line with POPIA and the conditions of your ethics approval, and deleted after the project closes if you wish.
+
+### Can you speak to my supervisor?
+
+Happily. A quick three-way conversation early on often saves weeks later.
+
+:::
+
 ::: {.cta-section}
 
 ## Not sure what you need?
 
 That's completely fine. Many researchers aren't sure which statistical methods apply to their project, and that's exactly what I'm here to help with. Send me a brief description and we'll set up a free initial consultation to figure it out together.
 
-[Email me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
+{{< include _cta-button.qmd >}}
 
 :::

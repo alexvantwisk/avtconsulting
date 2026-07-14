@@ -1,6 +1,6 @@
 ---
-title: "Statistical Consulting"
-toc: false
+pagetitle: "AVT Consulting | Biostatistical Consulting for Medical & Public Health Research"
+description: "Biostatistical consulting for medical and public health researchers: study design, sample size, data analysis, and publication-ready reporting. Free initial consultation."
 ---
 
 ::: {.hero}
@@ -8,7 +8,7 @@ toc: false
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/headshot.png){.hero-photo fig-alt="Alex van Twisk"}
+![](images/headshot.jpg){.hero-photo fig-alt="Alex van Twisk"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
@@ -19,7 +19,7 @@ toc: false
 
 [I'm Alex van Twisk, a biostatistician helping researchers in the medical and public health sciences get the statistics right, from study design through to publication.]{.lead}
 
-[Tell me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
+{{< include _cta-button.qmd >}}
 
 :::
 
@@ -69,33 +69,33 @@ Need publication-ready tables, figures, or a results section your reviewers will
 
 :::: {.grid}
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
 ::: {.credibility-card}
-#### Clinical trials experience
+### Clinical trials experience
 
 Associate Biostatistician at a contract research organisation specialising in trial design and analysis.
 :::
 :::
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
 ::: {.credibility-card}
-#### Formal training
+### Formal training
 
 MSc Biostatistics (Cum Laude), BScHons Biostatistics (With Distinction), and a BSc in Applied Mathematics.
 :::
 :::
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
 ::: {.credibility-card}
-#### Teaching background
+### Teaching background
 
 A postgraduate teaching qualification, university teaching assistant, and mathematics teacher. I explain things clearly, not just run your analysis.
 :::
 :::
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
 ::: {.credibility-card}
-#### Reproducible workflow
+### Reproducible workflow
 
 Every analysis in R with Quarto reports you can verify, re-run, and hand to your supervisor with confidence.
 :::
@@ -109,6 +109,6 @@ Every analysis in R with Quarto reports you can verify, re-run, and hand to your
 
 Not sure where to start? I offer a free initial consultation to understand your project and advise on next steps. No obligations.
 
-[Email me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta}
+{{< include _cta-button.qmd >}}
 
 :::
