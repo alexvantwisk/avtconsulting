@@ -3,7 +3,7 @@
 ## Status
 
 - Phases 1–2 implemented (2026-07-14)
-- Phase 3 implemented; Formspree live, Google Analytics activation pending (see `docs/phase3-activation.md`)
+- Phase 3 implemented and fully activated: Formspree + Google Analytics live (see `docs/phase3-activation.md`)
 - Phase 4 not started
 
 **Reviewed:** 2026-07-14 · **Scope:** full source review of the AVT Consulting Quarto site

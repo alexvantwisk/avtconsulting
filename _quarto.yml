@@ -14,8 +14,7 @@ website:
   open-graph: true
   twitter-card: true
   image: images/social-card.png
-  # Uncomment and set your GA4 Measurement ID to enable analytics:
-  # google-analytics: "G-XXXXXXXXXX"
+  google-analytics: "G-3EB0K5GDXG"
   navbar:
     background: primary
     left:

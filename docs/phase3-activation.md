@@ -16,14 +16,12 @@ Notes:
 - After the first submission arrives, send one test submission yourself from the
   live site to confirm end-to-end delivery.
 
-## 2. Google Analytics (GA4) — pending
+## 2. Google Analytics (GA4) — ✅ done (2026-07-14)
 
-1. Create a GA4 property at [analytics.google.com](https://analytics.google.com).
-2. Copy the Measurement ID (looks like `G-XXXXXXXXXX`).
-3. In `_quarto.yml`, uncomment the `google-analytics:` line under `website:` and
-   paste the ID in place of `G-XXXXXXXXXX`.
-4. Commit and push the change.
+`_quarto.yml` carries the live Measurement ID (`G-3EB0K5GDXG`); tracking starts
+once the site deploys from `main`. Data appears in the GA4 dashboard within a
+day or so of the first visits.
 
-Once analytics is live, a short privacy notice page is a sensible follow-up: GA4
-sets identifiers to track visitors, and a brief, POPIA-friendly note on what's
-collected and why is good practice once you're actually collecting the data.
+Follow-up worth doing: a short privacy notice page. GA4 sets identifiers to
+track visitors, and a brief, POPIA-friendly note on what's collected and why is
+good practice now that data is actually being collected.
