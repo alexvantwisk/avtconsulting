@@ -39,7 +39,7 @@ $footer-fg: $cream;
 /*-- scss:rules --*/
 
 // ---- Navbar email CTA button ----
-.navbar .nav-link[href^="mailto:"] {
+.navbar .nav-link[href$="contact.html"] {
   background-color: $sand-dark;
   color: #fff;
   border-radius: 6px;
@@ -57,8 +57,8 @@ $footer-fg: $cream;
 // ---- Navbar hover/active affordance ----
 // White nav-highlight on forest is subtle on its own; add an underline so
 // hover/active state is visible without relying on color alone.
-.navbar .nav-link:not([href^="mailto:"]):hover,
-.navbar .nav-link:not([href^="mailto:"]).active {
+.navbar .nav-link:not([href$="contact.html"]):hover,
+.navbar .nav-link:not([href$="contact.html"]).active {
   text-decoration: underline;
   text-underline-offset: 0.25em;
 }
@@ -116,6 +116,13 @@ $footer-fg: $cream;
 .btn-cta-large {
   font-size: 1.15rem;
   padding: 1rem 2rem;
+}
+
+button.btn-cta {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
 }
 
 // ---- Service cards ----
@@ -192,6 +199,16 @@ $footer-fg: $cream;
   padding-left: 0.75rem;
 }
 
+// ---- FAQ section (services page) ----
+.faq-section {
+  margin-top: 3rem;
+
+  h3 {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+  }
+}
+
 // ---- About page photo ----
 .about-photo {
   width: 100%;
@@ -206,18 +223,43 @@ $footer-fg: $cream;
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
+
+  h2 {
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+  }
 }
 
-.contact-section .what-to-include {
+// ---- Contact form ----
+.contact-form {
   text-align: left;
-  margin-top: 2rem;
 
-  h3 {
-    font-size: 1.1rem;
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: $charcoal;
   }
 
-  ul {
-    color: $charcoal-light;
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid $green-sage;
+    border-radius: 6px;
+    background: #fff;
+    margin-bottom: 1rem;
+    font: inherit;
+
+    &:focus {
+      outline: 2px solid $green-forest;
+      outline-offset: 1px;
+    }
+  }
+
+  textarea {
+    resize: vertical;
   }
 }
 
@@ -252,19 +294,25 @@ $footer-fg: $cream;
   font-size: 1rem;
 }
 
-// ---- Contact "what happens next" ----
-.contact-section .what-happens-next {
+// ---- Contact "how it works" ----
+.how-it-works {
   text-align: left;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   padding-top: 1.5rem;
   border-top: 1px solid $cream-border;
 
-  h3 {
-    font-size: 1.1rem;
+  ol {
+    padding-left: 1.25rem;
   }
 
-  p {
+  li {
+    margin-bottom: 0.75rem;
     color: $charcoal-light;
+
+    &::marker {
+      color: $green-forest;
+      font-weight: 600;
+    }
   }
 }
 

@@ -1,5 +1,11 @@
 # Website Review & Improvement Plan
 
+## Status
+
+- Phases 1–2 implemented (2026-07-14)
+- Phase 3 implemented pending two activation steps (see `docs/phase3-activation.md`)
+- Phase 4 not started
+
 **Reviewed:** 2026-07-14 · **Scope:** full source review of the AVT Consulting Quarto site
 (`_quarto.yml`, all four pages, `styles.scss`, `images/`, CI workflow, original design spec)
 

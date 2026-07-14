@@ -14,6 +14,8 @@ website:
   open-graph: true
   twitter-card: true
   image: images/social-card.png
+  # Uncomment and set your GA4 Measurement ID to enable analytics:
+  # google-analytics: "G-XXXXXXXXXX"
   navbar:
     background: primary
     left:
@@ -23,18 +25,16 @@ website:
         text: Services
       - href: about.qmd
         text: About
-      - href: contact.qmd
-        text: Contact
     right:
       - icon: envelope
-        href: "mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:"
+        href: contact.qmd
         text: "Get in Touch"
-        aria-label: "Email Alexander"
+        aria-label: "Get in touch"
   page-footer:
     left: "© 2026 Alexander van Twisk"
     right:
       - icon: envelope
-        href: "mailto:vantwiska@gmail.com"
+        href: "mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:"
         aria-label: "Email"
       - icon: linkedin
         href: "https://www.linkedin.com/in/alexander-van-twisk"

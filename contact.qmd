@@ -5,28 +5,56 @@ description: "Get in touch about your research project. The initial consultation
 
 ::: {.contact-section}
 
-Whether you're just starting to plan your study or you're staring at a dataset wondering what to do next, I'd be happy to hear from you. The first consultation is free, so there's no risk in reaching out.
+Whether you're just starting to plan your study or you're staring at a dataset wondering what to do next, I'd be happy to hear from you. The first consultation is free, and I reply within two business days.
 
 You don't need to have your statistics figured out before making contact. That's literally what I'm here for.
 
-[Email me about your project](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:){.btn-cta .btn-cta-large}
+## Tell me about your project
 
-::: {.what-to-include}
+```{=html}
+<!-- TODO: replace YOUR_FORM_ID with your Formspree form ID (see docs/phase3-activation.md) -->
+<form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" required>
 
-### What to include in your email
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required>
 
-- Your name and affiliation (e.g. PhD candidate, University of Cape Town)
-- A brief description of your research project
-- Where you're at in the process (proposal, data collection, analysis, or writing up)
-- Any deadlines you're working toward
+  <label for="program">Program or affiliation</label>
+  <input type="text" id="program" name="program" placeholder="e.g. PhD candidate, University of Cape Town">
 
-:::
+  <label for="stage">Where you're at</label>
+  <select id="stage" name="stage">
+    <option value="Just planning / writing a proposal">Just planning / writing a proposal</option>
+    <option value="Collecting data">Collecting data</option>
+    <option value="Ready for analysis">Ready for analysis</option>
+    <option value="Writing up">Writing up</option>
+    <option value="Not sure yet">Not sure yet</option>
+  </select>
 
-::: {.what-happens-next}
+  <label for="message">Tell me about your project</label>
+  <textarea id="message" name="message" rows="5" required></textarea>
 
-### What happens next
+  <label for="deadline">Timeline or deadlines</label>
+  <input type="text" id="deadline" name="deadline">
 
-We'll set up an initial consultation to get an overview of your project, what you're working on, your objectives, and what you're hoping to achieve. This helps me understand where you are and figure out how I can best support you. No obligations, no jargon.
+  <input type="hidden" name="_subject" value="Statistical Consulting Inquiry (website)">
+  <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+  <button type="submit" class="btn-cta">Send message</button>
+</form>
+```
+
+Prefer email? [Email me directly using this template](mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:). Either way, the first consultation is free.
+
+::: {.how-it-works}
+
+## How it works
+
+1. **Get in touch.** Send the form above, or an email, with a rough description of your project. No statistical vocabulary required.
+2. **Free consultation.** We set up a short call to talk through your project, your objectives, and where you are in the process.
+3. **Clear quote and plan.** You receive a written summary of the proposed work, the timeline, and the cost before anything begins.
+4. **The work.** I keep you posted as I go, and you receive documented, reproducible results you can verify, question, and hand to your supervisor with confidence.
 
 :::
 
