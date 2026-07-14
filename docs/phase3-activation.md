@@ -22,6 +22,6 @@ Notes:
 once the site deploys from `main`. Data appears in the GA4 dashboard within a
 day or so of the first visits.
 
-Follow-up worth doing: a short privacy notice page. GA4 sets identifiers to
-track visitors, and a brief, POPIA-friendly note on what's collected and why is
-good practice now that data is actually being collected.
+Follow-up done (2026-07-14): `privacy.qmd` is a short POPIA-friendly privacy
+notice covering GA4, the contact form, and client data, linked from the site
+footer.
