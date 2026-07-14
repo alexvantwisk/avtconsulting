@@ -12,8 +12,7 @@ You don't need to have your statistics figured out before making contact. That's
 ## Tell me about your project
 
 ```{=html}
-<!-- TODO: replace YOUR_FORM_ID with your Formspree form ID (see docs/phase3-activation.md) -->
-<form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<form class="contact-form" action="https://formspree.io/f/xojgvnla" method="POST">
   <label for="name">Name</label>
   <input type="text" id="name" name="name" required>
 
