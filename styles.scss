@@ -40,7 +40,19 @@ $footer-fg: $cream;
 
 // ---- Navbar email CTA button ----
 .navbar .nav-link[href$="contact.html"] {
+  background-color: $sand-dark;
+  color: #fff;
+  border-radius: 6px;
+  padding: 0.4rem 1.2rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  transition: background-color 0.2s ease;
   text-decoration: none !important; // it's a button; no underline needed
+
+  &:hover {
+    background-color: $sand-darker;
+    color: #fff;
+  }
 }
 
 // ---- Navbar hover/active affordance ----
@@ -208,6 +220,11 @@ button.btn-cta {
 }
 
 // ---- Contact page ----
+// Centre the page title (and description) on the contact page only
+body:has(.contact-section) #title-block-header {
+  text-align: center;
+}
+
 .contact-section {
   max-width: 600px;
   margin: 0 auto;
