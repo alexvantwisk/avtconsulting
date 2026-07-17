@@ -10,8 +10,8 @@ $charcoal: #2d3748;
 
 // Precomputed shades (replace darken()/lighten(), which are deprecated in
 // Dart Sass) chosen to pass WCAG AA contrast where used as text/hover colors.
-$sand-dark: #89704e;        // sand darkened ~10%; white text on it = 4.7:1
-$sand-darker: #6f5b40;      // sand darkened ~18% (hover)
+$sand-light: #b39b78;       // sand lightened ~6% (navbar CTA hover); ink text on it = 5.8:1
+$ink: #212529;              // near-black text; 4.7:1 on sand (white on sand is only 3.3:1 — see docs/website-review-plan.md 3.2)
 $sage-text: #486a61;        // sage darkened ~5%; 5.3:1 on cream — use for text; keep $green-sage for borders
 $charcoal-light: #4a5b77;   // charcoal lightened 15%
 $charcoal-lighter: #546787; // charcoal lightened 20%
@@ -40,18 +40,35 @@ $footer-fg: $cream;
 
 // ---- Navbar email CTA button ----
 .navbar .nav-link[href$="contact.html"] {
-  background-color: $sand-dark;
-  color: #fff;
+  background-color: $sand;
+  color: $ink;
   border-radius: 6px;
   padding: 0.4rem 1.2rem;
   font-weight: 600;
   margin-left: 0.5rem;
   transition: background-color 0.2s ease;
-  text-decoration: none !important; // it's a button; no underline needed
 
-  &:hover {
-    background-color: $sand-darker;
-    color: #fff;
+  // It's a button; no underline in any state. Quarto wraps the label in a
+  // child span (.menu-text) that gets its own underline on hover/active,
+  // which text-decoration on the link alone can't remove — clear descendants too.
+  &,
+  &:hover,
+  &:focus,
+  &.active,
+  & .menu-text,
+  & i {
+    text-decoration: none !important;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $sand-light;
+    color: $ink;
+  }
+
+  // Bootstrap paints .active nav links with $navbar-hl (white); keep ink here
+  &.active {
+    color: $ink;
   }
 }
 
