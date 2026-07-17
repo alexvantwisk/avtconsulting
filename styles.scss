@@ -39,7 +39,11 @@ $footer-fg: $cream;
 /*-- scss:rules --*/
 
 // ---- Navbar email CTA button ----
-.navbar .nav-link[href$="contact.html"] {
+// Match on "contact" anywhere in the href, not the ".html" suffix: Netlify's
+// Pretty URLs optimization rewrites ./contact.html to ./contact/ in the
+// deployed HTML, which made [href$="contact.html"] miss — the button lost its
+// styling and picked up the nav-link underline below.
+.navbar .nav-link[href*="contact"] {
   background-color: $sand;
   color: $ink;
   border-radius: 6px;
@@ -75,8 +79,8 @@ $footer-fg: $cream;
 // ---- Navbar hover/active affordance ----
 // White nav-highlight on forest is subtle on its own; add an underline so
 // hover/active state is visible without relying on color alone.
-.navbar .nav-link:not([href$="contact.html"]):hover,
-.navbar .nav-link:not([href$="contact.html"]).active {
+.navbar .nav-link:not([href*="contact"]):hover,
+.navbar .nav-link:not([href*="contact"]).active {
   text-decoration: underline;
   text-underline-offset: 0.25em;
 }
