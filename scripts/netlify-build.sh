@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-QUARTO_VERSION="1.7.32"
+QUARTO_VERSION="1.9.36"
 QUARTO_DIR="$PWD/.quarto-cli"
 
 if [ ! -x "$QUARTO_DIR/bin/quarto" ]; then
