@@ -1,0 +1,262 @@
+---
+title: "Curriculum Vitae"
+description: "CV of Alexander van Twisk: biostatistician, PhD student at the MRC Biostatistics Unit, University of Cambridge."
+toc: true
+toc-title: "Sections"
+---
+
+[Last updated: September 2026]{.cv-updated}
+
+[vantwiska@gmail.com](mailto:vantwiska@gmail.com) · [LinkedIn](https://www.linkedin.com/in/alexander-van-twisk) · [GitHub](https://github.com/alexvantwisk)
+
+## Summary
+
+I am a biostatistician working towards aligning novel statistical theory with practical application in clinical trials. My path from applied mathematics to biostatistics has followed problems that sit where theory, computation, and operational constraints meet, and my time at a clinical research organisation, from intern to lead statistician on regulatory bioequivalence submissions, showed me how often a theoretically optimal design founders on delayed outcomes, randomisation systems, or recruitment realities. I care most about trials in resource-constrained settings, where efficiency gains matter most. From October 2026 I am a PhD student in Biostatistics at the University of Cambridge's MRC Biostatistics Unit. I work precisely and directly, build tools that remove friction for the people around me, and enjoy explaining hard ideas clearly, a habit from teaching mathematics.
+
+## Education
+
+:::: {.cv-entry}
+::: {.cv-dates}
+Oct 2026 – present
+:::
+::: {.cv-body}
+**PhD Biostatistics**
+[University of Cambridge · Cambridge, United Kingdom]{.cv-org}
+
+- Research: *Operationally Feasible Multi-Arm Bandit Response-Adaptive Designs for Clinical Trials*, supervised by Professor Sofia Villar at the MRC Biostatistics Unit.
+- Aims to bridge optimal response-adaptive allocation theory and the operational realities of clinical trials: identifying where multi-armed bandit algorithms break down under constraints such as delayed or missing outcomes, and developing modifications that preserve statistical validity and practical feasibility.
+- Funded by an MRC Trials Methodology Research Partnership (TMRP) Doctoral Training Partnership studentship.
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-dates}
+Jan 2024 – Dec 2025
+:::
+::: {.cv-body}
+**MSc Biostatistics**
+[Stellenbosch University · Cape Town, South Africa]{.cv-org}
+
+- Passed with Distinction
+- Recipient of a Fogarty International scholarship
+- Research focussed on Bayesian survival analysis of interval-censored, weighted data.
+- **Courses:** Mathematical Statistics, Statistical Inference, Data Management and Statistical Computing, Linear Models, Survival Analysis, Observational Data Analysis, Categorical Data Analysis, Generalised Linear Models, Clinical Trials, Biostatistics Collaboration, Bayesian Statistics.
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-dates}
+Jan 2023 – Nov 2023
+:::
+::: {.cv-body}
+**BScHons Biostatistics**
+[University of Pretoria · Pretoria, South Africa]{.cv-org}
+
+- Passed with Distinction
+- Majoring in Epidemiology and Biostatistics
+- Honours class representative
+- **Courses:** Epidemiology, Biostatistics, Scientific Writing, Learning in Public Health, Conducting Surveys
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-dates}
+Feb 2022 – Nov 2022
+:::
+::: {.cv-body}
+**Postgraduate Certificate in Education**
+[University of Pretoria · Pretoria, South Africa]{.cv-org}
+
+- Passed with Distinction
+- Specialised in Mathematics and Economics Education
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-dates}
+Feb 2019 – Nov 2021
+:::
+::: {.cv-body}
+**BSc Applied Mathematics**
+[University of Pretoria · Pretoria, South Africa]{.cv-org}
+
+- Double majored in Economics
+- Third-year class representative
+:::
+::::
+
+## Work Experience
+
+:::: {.cv-entry}
+::: {.cv-dates}
+Jun 2026 – Sep 2026
+:::
+::: {.cv-body}
+**Biostatistician I**
+[Scigenix · Pretoria, South Africa]{.cv-org}
+
+- Lead statistician and programmer on two bioequivalence studies, one with a full CDISC submission to the FDA and the other submitted to the EMA.
+- Authored statistical analysis plans (SAPs) for sponsor trials.
+- Worked collaboratively across the Data Management and Data Science teams.
+- Pioneered agentic AI-assisted programming for building R submission packages, in strict adherence to GCP standards and participant privacy.
+- Built three in-house web tools to streamline and automate processes, containerised with Docker and deployed on an AWS EC2 instance with GitHub-based CI/CD.
+- Updated the company's statistical computing environment in line with GAMP 5 guidance for compliant GxP computerised systems.
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-dates}
+Dec 2025 – May 2026
+:::
+::: {.cv-body}
+**Associate Biostatistician**
+[Scigenix · Pretoria, South Africa]{.cv-org}
+
+- Supported clinical research projects through data cleaning, modelling, and reporting across multiple consulting studies.
+- Prepared randomisation schedules and contributed to RCT design workflows for sponsor trials.
+- Programmed R-based manual edit checks and performed regulatory-grade QC of trial datasets.
+- Maintained and extended a production-ready Shiny app for dataset comparison and coding checks used in internal QC workflows.
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-dates}
+Jun 2025 – Nov 2025
+:::
+::: {.cv-body}
+**Biostatistician Intern**
+[Scigenix · Pretoria, South Africa]{.cv-org}
+
+- Assisted senior biostatisticians with data cleaning, exploratory analyses, and R-based reporting.
+- Implemented R-based manual edit checks and supported QC of clinical trial datasets under supervision.
+- Built the initial production-ready Shiny app for dataset comparison and coding checks to streamline QC.
+- Contributed to database validation activities and documentation of edit checks for sponsor-facing deliverables.
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-dates}
+Oct 2024 – Feb 2025
+:::
+::: {.cv-body}
+**Data Capturer**
+[Stellenbosch University · Cape Town, South Africa]{.cv-org}
+
+- Clinical study to determine the effects of mindfulness training on student burn-out.
+- Capturing survey data onto REDCap.
+- Research conducted in partnership between the universities of Oxford and Stellenbosch.
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-dates}
+Oct 2022 – Dec 2023
+:::
+::: {.cv-body}
+**Locum Mathematics Teacher**
+[Pretoria Boys High School · Pretoria, South Africa]{.cv-org}
+
+- Teaching mathematics to Grades 8 to 12.
+- Taking extra mathematics classes after school.
+- Presenting revision workshops for Grade 12s.
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-dates}
+Mar 2021 – Jun 2022
+:::
+::: {.cv-body}
+**Teaching Assistant**
+[University of Pretoria · Pretoria, South Africa]{.cv-org}
+
+- Courses taught: Calculus, Linear Algebra.
+- Assisting the lecturer responsible with marking and general admin for the modules via ClickUP.
+:::
+::::
+
+## Selected Talks & Workshops
+
+:::: {.cv-entry}
+::: {.cv-dates}
+Nov 2025
+:::
+::: {.cv-body}
+**Presenter – Bayesian inference of weighted, interval-censored data: a comparison of Hamiltonian Monte Carlo and Metropolis–Hastings algorithms**
+[South African Statistical Association (SASA) Annual Conference · South Africa]{.cv-org}
+
+- 15-minute contributed talk presenting MSc thesis work on weighted, interval-censored HIV data.
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-dates}
+Nov 2025
+:::
+::: {.cv-body}
+**Workshop Facilitator – Prompt → Plot → Proof**
+[Stellenbosch University, ML learning short course · Cape Town, South Africa]{.cv-org}
+
+- 2-hour hands-on workshop on using large language models and ggplot2 to streamline biostatistics workflows.
+:::
+::::
+
+## Skills
+
+::: {.cv-skills}
+
+Programming
+:   R (advanced), Stata (intermediate), Python (novice), SQL (novice)
+
+Statistical Methods
+:   Sample Size Calculations, GLMMs, Survival Analysis, Categorical Data Analysis, Bayesian Inference, Causal Inference, Clinical Trials
+
+Clinical Data Standards
+:   CRF design, data cleaning, clinical report structuring (ADaM, SDTM)
+
+Soft Skills
+:   Time Management, Teamwork, Problem-solving, Engaging Presentation, Teaching
+
+:::
+
+## Research Projects
+
+:::: {.cv-entry}
+::: {.cv-dates}
+2025
+:::
+::: {.cv-body}
+**Bayesian inference of interval-censored data with an application to HIV population surveys: A simulation study and application to an HIV population survey comparing Hamiltonian Monte Carlo and Metropolis–Hastings sampling algorithms**
+[Stellenbosch University · Cape Town, South Africa]{.cv-org}
+
+- Conducted a Master's thesis on Bayesian inference for interval-censored HIV seroconversion data using a log-logistic accelerated failure-time model.
+- Designed and implemented a large-scale simulation study (5,400 datasets) to compare Hamiltonian Monte Carlo (Stan) with Metropolis–Hastings (JAGS) under complex survey weighting.
+- Demonstrated that HMC delivers identical inference with 30–90× higher sampling efficiency and substantially faster convergence.
+- Applied the weighted Bayesian model to the ZIMPHIA 2020 HIV population survey to estimate seroconversion dynamics and covariate effects under informative sampling.
+- Developed expertise in Bayesian modelling, survival analysis, complex survey methods, HMC/NUTS, MCMC diagnostics, Stan, JAGS, and advanced R programming.
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-dates}
+2023
+:::
+::: {.cv-body}
+**Prevalence and Factors Associated with HIV Testing Among Adolescent Girls and Young Women in Southern African Development Community Countries: Evidence from Latest Demographic and Health Surveys**
+[University of Pretoria · Pretoria, South Africa]{.cv-org}
+
+- A research protocol developed during my honours year, written with the goal of presenting it to a university ethics committee at the start of my master's studies.
+:::
+::::
+
+:::: {.cv-entry}
+::: {.cv-dates}
+2021
+:::
+::: {.cv-body}
+**Comparing the Logistic and Gompertz models in their use for modelling cancer growth using numerical methods**
+[University of Pretoria · Pretoria, South Africa]{.cv-org}
+
+- Final-year research project for WTW 383 (Numerical Analysis), comparing two mathematical models of tumour growth using Python implementations of the numerical algorithms learnt in the module.
+:::
+::::

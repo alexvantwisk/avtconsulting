@@ -1,0 +1,67 @@
+/*-- scss:rules --*/
+
+// ---- CV page ----
+.cv-download {
+  margin-bottom: 1.5rem;
+}
+
+.cv-updated {
+  display: block;
+  font-size: 0.9rem;
+  color: $sage-text;
+  margin-bottom: 2rem;
+}
+
+.cv-entry {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr;
+  column-gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cv-dates {
+  color: $sage-text;
+  font-size: 0.95rem;
+  padding-top: 0.15rem;
+}
+
+.cv-body {
+  p {
+    margin-bottom: 0.35rem;
+  }
+
+  ul {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+}
+
+.cv-org {
+  color: $charcoal-light;
+}
+
+.cv-skills {
+  dt {
+    font-weight: 600;
+    margin-top: 0.75rem;
+  }
+
+  dd {
+    margin-left: 0;
+    color: $charcoal-light;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .cv-entry {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-dates {
+    margin-bottom: 0.25rem;
+  }
+}
