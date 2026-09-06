@@ -1,8 +1,8 @@
-name: Deploy Quarto site to GitHub Pages
+name: Build and deploy site
 
 on:
   push:
-    branches: [main, "claude/**"]
+    branches: [main]
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -19,8 +19,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    outputs:
-      pages-enabled: ${{ steps.pages-check.outputs.enabled }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,33 +26,28 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: "1.7.32"
+          version: "1.9.36"
 
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2
 
-      # Deploying from Actions only works when the repo's Pages source is set
-      # to "GitHub Actions" (Settings -> Pages). The site is also deployed via
-      # Netlify, so a disabled Pages site should not fail CI.
-      - name: Check whether GitHub Pages is enabled
-        id: pages-check
-        if: github.ref == 'refs/heads/main'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          build_type=$(curl -s \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${{ github.repository }}/pages" \
-            | jq -r '.build_type // "disabled"')
-          if [ "$build_type" = "workflow" ]; then
-            echo "enabled=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "enabled=false" >> "$GITHUB_OUTPUT"
-            echo "::warning::Skipping GitHub Pages deploy: Pages source is '$build_type'. To deploy from this workflow, set Settings -> Pages -> Source to 'GitHub Actions'."
-          fi
+      # Offline mode checks only links to files inside _site, so the build
+      # never depends on external hosts. --root-dir resolves root-relative
+      # links such as /blog/index.xml. Redirect pages made by Quarto aliases
+      # are JavaScript, so their existence is verified by the local checklist
+      # (test -f), not by lychee.
+      - name: Check internal links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --offline
+            --root-dir ${{ github.workspace }}/_site
+            --exclude-mail
+            --no-progress
+            "_site/**/*.html"
+          fail: true
 
-      - name: Upload artifact
+      - name: Upload Pages artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
@@ -62,7 +55,7 @@ jobs:
 
   deploy:
     needs: build
-    if: github.ref == 'refs/heads/main' && needs.build.outputs.pages-enabled == 'true'
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
