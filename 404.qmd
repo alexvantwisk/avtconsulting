@@ -4,4 +4,4 @@ title: "Page not found"
 
 This page may have moved, or the link might not be quite right. Either way, the statistics are still sound. It's only the URL that's broken.
 
-Head back to the [home page](index.qmd) to start again, or go straight to the [contact page](contact.qmd) if you'd like to get in touch about your research project.
+Head back to the [home page](index.qmd) to start again, or go straight to the [contact page](consulting/contact.qmd) if you'd like to get in touch about your research project.
