@@ -105,3 +105,32 @@ body:has(.contact-section) #title-block-header {
     }
   }
 }
+
+// ---- Consulting sub-navigation ----
+.consulting-subnav {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $cream-border;
+
+  p {
+    margin: 0;
+    color: $sage-text;
+
+    &::before {
+      content: "Consulting: ";
+      font-weight: 600;
+      color: $charcoal;
+    }
+  }
+
+  a {
+    color: $green-forest;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

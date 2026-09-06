@@ -110,6 +110,18 @@ button.btn-cta {
   font-size: 1rem;
 }
 
+.btn-cta-secondary {
+  background-color: transparent;
+  color: $green-forest;
+  border: 2px solid $green-forest;
+  padding: calc(0.75rem - 2px) calc(1.5rem - 2px);
+
+  &:hover {
+    background-color: $green-forest;
+    color: #fff;
+  }
+}
+
 // ---- Cards ----
 .service-card {
   background: #fff;

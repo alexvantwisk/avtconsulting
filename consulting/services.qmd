@@ -1,7 +1,13 @@
 ---
 title: "Services"
 description: "Statistical consulting services: sample size and power calculations, regression and survival analysis, survey data analysis, and publication-ready statistical reporting."
+image: ../images/social-card.png
+aliases:
+  - /services.html
+  - /services/
 ---
+
+{{< include _subnav.qmd >}}
 
 ## I meet you where you are
 

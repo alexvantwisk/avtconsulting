@@ -1,0 +1,117 @@
+---
+pagetitle: "Consulting | Alexander van Twisk"
+description: "Biostatistical consulting for medical and public health researchers: study design, sample size, data analysis, and publication-ready reporting. Free initial consultation."
+image: ../images/social-card.png
+---
+
+{{< include _subnav.qmd >}}
+
+::: {.hero}
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+![](../images/headshot.jpg){.hero-photo fig-alt="Alex van Twisk"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
+# The best time to call a biostatistician is before you start. {.unlisted}
+
+[The second-best time? Right now, wherever you are in your research.]{.follow-up}
+
+[I'm Alex van Twisk, a biostatistician helping researchers in the medical and public health sciences get the statistics right, from study design through to publication.]{.lead}
+
+{{< include _cta-button.qmd >}}
+
+:::
+
+::::
+
+:::
+
+## Your research, your terms
+
+Whether you need a hand with one piece of the puzzle or a partner for the whole journey, I'll meet you where you are.
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.service-card}
+### Study Design
+
+Starting a new study or writing a proposal? This is the ideal time to get statistical input. Sample size calculations, randomisation strategies, and protocol stats sections.
+
+[Learn more &rarr;](services.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.service-card .service-card-sage}
+### Data Analysis
+
+Already have data? I work with regression, survival analysis, mixed-effects models, complex survey designs, and more.
+
+[Learn more &rarr;](services.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.service-card .service-card-teal}
+### Reporting
+
+Need publication-ready tables, figures, or a results section your reviewers will accept? I can help with that too.
+
+[Learn more &rarr;](services.qmd)
+:::
+:::
+
+::::
+
+## Why work with me
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.credibility-card}
+### Clinical trials experience
+
+Associate Biostatistician at a contract research organisation specialising in trial design and analysis.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.credibility-card}
+### Formal training
+
+MSc Biostatistics (Cum Laude), BScHons Biostatistics (With Distinction), and a BSc in Applied Mathematics.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.credibility-card}
+### Teaching background
+
+A postgraduate teaching qualification, university teaching assistant, and mathematics teacher. I explain things clearly, not just run your analysis.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.credibility-card}
+### Reproducible workflow
+
+Every analysis in R with Quarto reports you can verify, re-run, and hand to your supervisor with confidence.
+:::
+:::
+
+::::
+
+::: {.cta-section}
+
+## Let's figure it out together
+
+Not sure where to start? I offer a free initial consultation to understand your project and advise on next steps. No obligations.
+
+{{< include _cta-button.qmd >}}
+
+:::

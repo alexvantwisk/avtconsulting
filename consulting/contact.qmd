@@ -1,7 +1,13 @@
 ---
 title: "Let's Talk About Your Project"
 description: "Get in touch about your research project. The initial consultation is free, with no obligations."
+image: ../images/social-card.png
+aliases:
+  - /contact.html
+  - /contact/
 ---
+
+{{< include _subnav.qmd >}}
 
 ::: {.contact-section}
 
