@@ -44,5 +44,5 @@ website:
 
 format:
   html:
-    theme: [cosmo, styles.scss]
+    theme: [cosmo, scss/palette.scss, scss/components.scss, scss/consulting.scss]
     toc: false

@@ -1,0 +1,37 @@
+/*-- scss:defaults --*/
+
+// Forest & Sand palette
+$green-forest: #2d6a4f;
+$green-sage: #52796f;
+$teal: #3d8b8a;
+$sand: #a68a64;
+$cream: #f5f0e8;
+$charcoal: #2d3748;
+
+// Precomputed shades (replace darken()/lighten(), which are deprecated in
+// Dart Sass) chosen to pass WCAG AA contrast where used as text/hover colors.
+$sand-light: #b39b78;       // sand lightened ~6% (navbar button hover); ink text on it = 5.8:1
+$ink: #212529;              // near-black text; 4.7:1 on sand (white on sand is only 3.3:1)
+$sage-text: #486a61;        // sage darkened ~5%; 5.3:1 on cream — use for text; keep $green-sage for borders
+$charcoal-light: #4a5b77;   // charcoal lightened 15%
+$charcoal-lighter: #546787; // charcoal lightened 20%
+$forest-dark: #1e4634;      // forest darkened 10% (hover)
+$cream-dark: #f0e9dd;       // cream darkened 3% (cta-section bg)
+$cream-border: #e9ddcb;     // cream darkened 8% (borders)
+
+// Bootstrap overrides
+$body-bg: $cream;
+$body-color: $charcoal;
+$link-color: $green-forest;
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: Georgia, "Times New Roman", serif;
+$headings-color: $charcoal;
+
+// Navbar
+$navbar-bg: $green-forest;
+$navbar-fg: $cream;
+$navbar-hl: #fff;
+
+// Footer
+$footer-bg: $green-forest;
+$footer-fg: $cream;
