@@ -1,6 +1,7 @@
 ---
 title: "About"
 description: "Alexander van Twisk is a biostatistician and PhD student at the MRC Biostatistics Unit, University of Cambridge, with clinical trials experience and a teaching background."
+image: images/social-card-personal.png
 ---
 
 :::: {.grid}

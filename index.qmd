@@ -1,6 +1,7 @@
 ---
 pagetitle: "Alexander van Twisk | Biostatistician"
 description: "Alexander van Twisk is a biostatistician and PhD student at the MRC Biostatistics Unit, University of Cambridge, writing about statistics, R, and clinical trial methodology."
+image: images/social-card-personal.png
 listing:
   id: latest-posts
   contents: blog/*/index.qmd
