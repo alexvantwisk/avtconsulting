@@ -36,8 +36,6 @@ jobs:
       # --root-dir resolves root-relative links such as /blog/index.xml.
       # Redirect pages made by Quarto aliases are JavaScript, so their
       # existence is verified by the local checklist (test -f), not by lychee.
-      # The 404 page is excluded: Quarto writes it with site-url-absolute
-      # links (/avtconsulting/...) that resolve only on the deployed host.
       - name: Check internal links
         uses: lycheeverse/lychee-action@v2
         with:
@@ -45,7 +43,6 @@ jobs:
             --offline
             --root-dir ${{ github.workspace }}/_site
             --no-progress
-            --exclude-path _site/404.html
             "_site/**/*.html"
           fail: true
 
