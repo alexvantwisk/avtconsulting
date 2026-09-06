@@ -32,17 +32,16 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
 
       # Offline mode checks only links to files inside _site, so the build
-      # never depends on external hosts. --root-dir resolves root-relative
-      # links such as /blog/index.xml. Redirect pages made by Quarto aliases
-      # are JavaScript, so their existence is verified by the local checklist
-      # (test -f), not by lychee.
+      # never depends on external hosts; mailto links are skipped by default.
+      # --root-dir resolves root-relative links such as /blog/index.xml.
+      # Redirect pages made by Quarto aliases are JavaScript, so their
+      # existence is verified by the local checklist (test -f), not by lychee.
       - name: Check internal links
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
             --offline
             --root-dir ${{ github.workspace }}/_site
-            --exclude-mail
             --no-progress
             "_site/**/*.html"
           fail: true
