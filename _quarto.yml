@@ -13,7 +13,7 @@ website:
   favicon: images/favicon.png
   open-graph: true
   twitter-card: true
-  image: images/social-card-personal.png
+  image: /images/social-card-personal.png
   google-analytics: "G-3EB0K5GDXG"
   navbar:
     background: primary

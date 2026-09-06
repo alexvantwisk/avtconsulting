@@ -54,4 +54,6 @@ Push to `main`. The workflow renders the site, runs an offline link check, and d
    CI has no R. It reuses `_freeze/`. If you edit an R post and forget to render, CI publishes the previous outputs.
 6. Prose posts need no render step beyond checking `quarto preview`.
 
+Posts without an `image:` of their own use the site's personal share card automatically.
+
 The feed is at `/blog/index.xml`. Search indexes posts automatically.
