@@ -7,8 +7,8 @@ project:
 lang: en
 
 website:
-  title: "AVT Consulting"
-  description: "Biostatistical consulting for researchers in medical and public health sciences. Study design, data analysis, and reporting support."
+  title: "Alexander van Twisk"
+  description: "Alexander van Twisk is a biostatistician and PhD student at the MRC Biostatistics Unit, University of Cambridge. Writing on statistics, R, and clinical trial methodology, with statistical consulting for researchers."
   site-url: https://alexvantwisk.github.io/avtconsulting
   favicon: images/favicon.png
   open-graph: true
@@ -36,11 +36,14 @@ website:
         text: Privacy
     right:
       - icon: envelope
-        href: "mailto:vantwiska@gmail.com?subject=Statistical%20Consulting%20Inquiry&body=Name:%0D%0AProgram%20or%20affiliation:%0D%0ABrief%20project%20description:%0D%0AWhere%20you%27re%20at%20(proposal%2C%20data%20collection%2C%20analysis%2C%20writing%20up):%0D%0ATimeline%20or%20deadlines:"
+        href: "mailto:vantwiska@gmail.com"
         aria-label: "Email"
       - icon: linkedin
         href: "https://www.linkedin.com/in/alexander-van-twisk"
         aria-label: "LinkedIn"
+      - icon: github
+        href: "https://github.com/alexvantwisk"
+        aria-label: "GitHub"
 
 format:
   html:

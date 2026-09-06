@@ -5,6 +5,7 @@
 - Phases 1–2 implemented (2026-07-14)
 - Phase 3 implemented and fully activated: Formspree + Google Analytics live (see `docs/phase3-activation.md`)
 - Phase 4 not started
+- Phase 4 superseded by `docs/superpowers/specs/2026-09-06-personal-website-design.md` (personal site with blog; custom domain handled there)
 
 **Reviewed:** 2026-07-14 · **Scope:** full source review of the AVT Consulting Quarto site
 (`_quarto.yml`, all four pages, `styles.scss`, `images/`, CI workflow, original design spec)
