@@ -1,14 +1,54 @@
 ---
 pagetitle: "Alexander van Twisk | Biostatistician"
-description: "Alexander van Twisk is a biostatistician and PhD student at the MRC Biostatistics Unit, University of Cambridge."
+description: "Alexander van Twisk is a biostatistician and PhD student at the MRC Biostatistics Unit, University of Cambridge, writing about statistics, R, and clinical trial methodology."
 ---
 
 ::: {.hero}
 
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+![](images/headshot.jpg){.hero-photo fig-alt="Alexander van Twisk"}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
 # Alexander van Twisk {.unlisted}
 
-[Biostatistician. PhD student at the MRC Biostatistics Unit, University of Cambridge.]{.lead}
+[Biostatistician. PhD student at the MRC Biostatistics Unit, University of Cambridge.]{.follow-up}
+
+[I work on how clinical trials can adapt as they learn, and on making good statistics practical for the researchers who need it. I write here about statistics, R, and trial methodology, and now and then about aviation and history.]{.lead}
 
 [About me](about.qmd){.btn-cta} [Consulting](consulting/index.qmd){.btn-cta .btn-cta-secondary}
 
 :::
+
+::::
+
+:::
+
+## Elsewhere on this site
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.service-card}
+### Consulting
+
+Statistical support for researchers in the medical and public health sciences, from study design to publication. A limited number of projects run alongside the PhD.
+
+[Consulting &rarr;](consulting/index.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.service-card .service-card-sage}
+### About
+
+The path from applied mathematics to trial methodology, and what the PhD is about.
+
+[About me &rarr;](about.qmd)
+:::
+:::
+
+::::
