@@ -11,7 +11,7 @@ aliases:
 
 ::: {.contact-section}
 
-Whether you're just starting to plan your study or you're staring at a dataset wondering what to do next, I'd be happy to hear from you. The first consultation is free, and I reply within two business days.
+Whether you're just starting to plan your study or you're staring at a dataset wondering what to do next, I'd be happy to hear from you. The first consultation is free.
 
 You don't need to have your statistics figured out before making contact. That's literally what I'm here for.
 
