@@ -1,0 +1,63 @@
+---
+title: "How many participants do I need? A worked sample size example"
+description: "A sample size calculation for comparing two group means, with the power curve behind it, in base R."
+date: 2026-09-07
+categories: [Statistics, R]
+---
+
+"How many participants do I need?" is the question I am asked most often, and the honest answer starts with four other questions. This post works through the simplest common case, comparing the means of two independent groups, so you can see where the number comes from.
+
+## Four inputs
+
+Say you are planning a trial of a blood pressure intervention against usual care, with systolic blood pressure at 12 weeks as the outcome. A two-sample t-test needs:
+
+1. **The difference worth detecting.** The smallest between-group difference that would change practice. Suppose 5 mmHg.
+2. **The spread of the outcome.** The standard deviation of systolic blood pressure in this population. Suppose 10 mmHg, from a previous study.
+3. **The significance level.** Almost always 0.05, two-sided.
+4. **The power.** The probability of detecting the difference if it is real. 80% is the usual floor; 90% is better if you can afford it.
+
+## The calculation
+
+Base R has this built in.
+
+```{r}
+#| label: sample-size
+power.t.test(delta = 5, sd = 10, sig.level = 0.05, power = 0.80)
+```
+
+Read `n` as participants **per group** and round up: 64 per group, 128 in total.
+
+## Where the number comes from
+
+Power is not a switch. It rises smoothly as the groups grow, and 80% is just the point on the curve we chose to stop at.
+
+```{r}
+#| label: power-curve
+#| fig-cap: "Power to detect a 5 mmHg difference (SD 10 mmHg) at a two-sided 5% level, by participants per group."
+#| fig-alt: "Line chart of power rising with participants per group, crossing 80% at 64 per group."
+n <- seq(10, 150, by = 2)
+power <- vapply(
+  n,
+  function(k) power.t.test(n = k, delta = 5, sd = 10, sig.level = 0.05)$power,
+  numeric(1)
+)
+
+plot(n, power, type = "l", lwd = 2, col = "#2d6a4f", ylim = c(0, 1),
+     xlab = "Participants per group", ylab = "Power", las = 1, bty = "l")
+abline(h = 0.8, lty = 2, col = "#a68a64")
+abline(v = 64, lty = 3, col = "#52796f")
+```
+
+## What moves the number
+
+**The effect size dominates.** Halve the difference to 2.5 mmHg and the required sample roughly quadruples, to `r ceiling(power.t.test(delta = 2.5, sd = 10, sig.level = 0.05, power = 0.80)$n)` per group. Be honest about the smallest difference that matters rather than the one you hope for.
+
+**Dropout inflates it.** If you expect 15% of participants to be lost to follow-up, divide by 0.85: 64 / 0.85 is 75.3, so recruit 76 per group.
+
+**More power costs more.** Raising power to 90% needs `r ceiling(power.t.test(delta = 5, sd = 10, sig.level = 0.05, power = 0.90)$n)` per group.
+
+## When this is not your case
+
+This is the simplest situation. Binary outcomes, survival times, clustered or repeated measurements, and unequal group sizes each have their own calculation, and getting the design right is far cheaper before recruitment starts than after. If that is where you are, the [consulting pages](../../consulting/index.qmd) explain how I can help.
+
+{{< include ../_post-footer.qmd >}}
