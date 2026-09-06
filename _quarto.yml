@@ -3,13 +3,15 @@ project:
   output-dir: _site
   render:
     - "*.qmd"
+  resources:
+    - CNAME
 
 lang: en
 
 website:
   title: "Alexander van Twisk"
   description: "Alexander van Twisk is a biostatistician and PhD student at the MRC Biostatistics Unit, University of Cambridge. Writing on statistics, R, and clinical trial methodology, with statistical consulting for researchers."
-  site-url: https://alexvantwisk.github.io
+  site-url: https://avantwisk.com
   favicon: images/favicon.png
   open-graph: true
   twitter-card: true
