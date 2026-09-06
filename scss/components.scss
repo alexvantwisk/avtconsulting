@@ -1,10 +1,8 @@
 /*-- scss:rules --*/
 
 // ---- Navbar call-to-action button ----
-// Match on "contact" anywhere in the href, not the ".html" suffix, because
-// pretty-URL rewriting on some hosts turns ./contact.html into ./contact/.
-// Task 6 changes this match to "consulting".
-.navbar .nav-link[href*="contact"] {
+// Match on "consulting" anywhere in the href. Verified: the navbar href contains "consulting" on every page, including pages inside consulting/.
+.navbar .nav-link[href*="consulting"] {
   background-color: $sand;
   color: $ink;
   border-radius: 6px;
@@ -36,8 +34,8 @@
 }
 
 // ---- Navbar hover/active affordance ----
-.navbar .nav-link:not([href*="contact"]):hover,
-.navbar .nav-link:not([href*="contact"]).active {
+.navbar .nav-link:not([href*="consulting"]):hover,
+.navbar .nav-link:not([href*="consulting"]).active {
   text-decoration: underline;
   text-underline-offset: 0.25em;
 }

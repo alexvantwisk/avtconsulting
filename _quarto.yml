@@ -18,17 +18,12 @@ website:
   navbar:
     background: primary
     left:
-      - href: index.qmd
-        text: Home
-      - href: services.qmd
-        text: Services
       - href: about.qmd
         text: About
     right:
-      - icon: envelope
-        href: contact.qmd
-        text: "Get in Touch"
-        aria-label: "Get in touch"
+      - href: consulting/index.qmd
+        text: Consulting
+        aria-label: "Consulting services"
   page-footer:
     left: "© 2026 Alexander van Twisk"
     center:
