@@ -1,52 +1,30 @@
 ---
 title: "About"
-description: "Alex van Twisk is a biostatistician (MSc Biostatistics, Cum Laude) based in Pretoria, South Africa, with clinical trials experience and a teaching background."
+description: "Alexander van Twisk is a biostatistician and PhD student at the MRC Biostatistics Unit, University of Cambridge, with clinical trials experience and a teaching background."
 ---
 
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/headshot.jpg){.about-photo fig-alt="Alex van Twisk"}
+![](images/headshot.jpg){.about-photo fig-alt="Alexander van Twisk"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
 
-I'm a biostatistician based in Pretoria, South Africa. I work in clinical trials during the day and consult with researchers on the side, helping them navigate the statistical aspects of their work in the medical and public health sciences.
+I'm a biostatistician. From October 2026 I'm a PhD student at the MRC Biostatistics Unit, University of Cambridge, supervised by Professor Sofia Villar and funded by an MRC Trials Methodology Research Partnership studentship. My research is on response-adaptive designs for clinical trials: how to let a trial learn from its own data and send more participants to the treatments that are working, without breaking either the statistics or the logistics that keep a trial running.
 
-I know that statistics can feel overwhelming, especially when it's not your primary field. I aim to make the process straightforward and collaborative. My goal is for you to understand the analysis behind your results, not just receive a set of numbers.
+I came to this by way of applied mathematics, then biostatistics at Pretoria and Stellenbosch, and then a clinical research organisation, where I went from intern to lead statistician on regulatory bioequivalence submissions. That work showed me how often a theoretically optimal design founders on delayed outcomes, randomisation systems, or recruitment realities. I care most about trials in resource-constrained settings, where efficiency gains matter most.
 
 :::
 
 ::::
 
-## Education
+## Before the PhD
 
-- **MSc Biostatistics** — Stellenbosch University (Cum Laude, 2025)
-- **BScHons Biostatistics** — University of Pretoria (With Distinction, 2023)
-- **PGCE Further Education and Training** — University of Pretoria (With Distinction, 2022)
-- **BSc Applied Mathematics** — University of Pretoria (2021)
+I taught mathematics before any of this, at a high school and as a university teaching assistant, and I still enjoy explaining hard ideas clearly. My MSc thesis compared Hamiltonian Monte Carlo with Metropolis–Hastings sampling for Bayesian survival analysis of weighted, interval-censored HIV survey data, and I presented that work at the South African Statistical Association's annual conference.
 
-## Experience
+Away from statistics I am known for a steady supply of interesting facts and a love of aviation and geopolitical history. Some of that will end up on the blog.
 
-**Associate Biostatistician, Contract Research Organisation**
-Working on clinical trials: biostatistical consulting, clinical trial randomisation, data validation programming, and Shiny app development.
+## Working with me
 
-**Data Capturer, Stellenbosch University (Faculty of Medicine and Health Sciences)**
-Captured over 600 surveys onto REDCap as part of a clinical study by the Universities of Oxford and Stellenbosch on mindfulness training in undergraduate medical students.
-
-**Locum Mathematics Teacher, Pretoria Boys High School**
-Taught high school mathematics across multiple grades.
-
-**Teaching Assistant, University of Pretoria**
-Supported undergraduate and postgraduate teaching in the Department of Statistics for 1.5 years.
-
-I don't just run your analysis. My teaching background means I make sure you understand it.
-
-## Areas I work in
-
-- Clinical trials: design, analysis, and reporting
-- Longitudinal and repeated-measures studies
-- Survey analysis with complex sampling designs
-- Cross-sectional and observational study designs
-- Sample size and power calculations
-- Reproducible statistical reporting
+If you are a researcher looking for statistical help with a study, see the [consulting](consulting/index.qmd) pages. The full record of degrees, roles, and talks is on the CV page.
