@@ -22,6 +22,8 @@ website:
         text: About
       - href: cv.qmd
         text: CV
+      - href: blog/index.qmd
+        text: Blog
     right:
       - href: consulting/index.qmd
         text: Consulting
@@ -41,8 +43,11 @@ website:
       - icon: github
         href: "https://github.com/alexvantwisk"
         aria-label: "GitHub"
+      - icon: rss
+        href: blog/index.xml
+        aria-label: "RSS feed"
 
 format:
   html:
-    theme: [cosmo, scss/palette.scss, scss/components.scss, scss/consulting.scss, scss/cv.scss]
+    theme: [cosmo, scss/palette.scss, scss/components.scss, scss/consulting.scss, scss/cv.scss, scss/blog.scss]
     toc: false

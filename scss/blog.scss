@@ -1,0 +1,38 @@
+/*-- scss:rules --*/
+
+// ---- Blog listing ----
+.quarto-listing-default .listing-title {
+  font-family: $headings-font-family;
+}
+
+.listing-reading-time,
+.listing-date {
+  color: $sage-text;
+}
+
+.quarto-category,
+.listing-categories .listing-category {
+  background: $cream-dark;
+  border-color: $cream-border;
+  color: $charcoal-light;
+}
+
+// ---- Latest-posts grid on the home page ----
+.quarto-grid-item.card {
+  border: none;
+  border-top: 4px solid $green-forest;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+  .card-title {
+    font-family: $headings-font-family;
+    font-size: 1.1rem;
+  }
+}
+
+// ---- Post footer ----
+.post-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid $cream-border;
+}

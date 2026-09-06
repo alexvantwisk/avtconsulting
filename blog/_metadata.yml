@@ -1,0 +1,13 @@
+# Defaults for every post under blog/.
+# freeze: true means a post's code runs only when you render that post
+# locally; the results in _freeze/ are committed and reused by CI, which has
+# no R installed. After editing an R post run:
+#   quarto render blog/<slug>/index.qmd
+# and commit the post together with its _freeze/ output.
+execute:
+  freeze: true
+  echo: true
+  warning: false
+  message: false
+toc: true
+author: "Alexander van Twisk"

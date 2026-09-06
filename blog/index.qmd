@@ -1,0 +1,15 @@
+---
+title: "Blog"
+description: "Writing by Alexander van Twisk on statistics, R, clinical trial methodology, and the occasional essay."
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  feed:
+    type: full
+  fields: [date, title, description, categories, reading-time]
+  page-size: 10
+  sort-ui: true
+  filter-ui: true
+---

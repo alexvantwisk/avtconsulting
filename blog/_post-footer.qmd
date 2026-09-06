@@ -1,0 +1,3 @@
+::: {.post-footer}
+[&larr; All posts](../index.qmd)
+:::
