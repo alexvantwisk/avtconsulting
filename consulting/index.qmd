@@ -20,7 +20,7 @@ image: ../images/social-card.png
 
 [The second-best time? Right now, wherever you are in your research.]{.follow-up}
 
-[I'm Alex van Twisk, a biostatistician helping researchers in the medical and public health sciences get the statistics right, from study design through to publication.]{.lead}
+[I'm Alex van Twisk, a biostatistician and PhD student at the MRC Biostatistics Unit, University of Cambridge. I take on a limited number of consulting projects alongside my research, working remotely with researchers in South Africa and the UK to get the statistics right, from study design through to publication.]{.lead}
 
 {{< include _cta-button.qmd >}}
 
@@ -74,9 +74,17 @@ Need publication-ready tables, figures, or a results section your reviewers will
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
 ::: {.credibility-card}
+### PhD in trials methodology
+
+PhD student at the MRC Biostatistics Unit, University of Cambridge, researching response-adaptive designs for clinical trials.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.credibility-card}
 ### Clinical trials experience
 
-Associate Biostatistician at a contract research organisation specialising in trial design and analysis.
+Over a year at a contract research organisation, most recently as lead statistician and programmer on bioequivalence studies submitted to the FDA and the EMA.
 :::
 :::
 
@@ -93,14 +101,6 @@ MSc Biostatistics (Cum Laude), BScHons Biostatistics (With Distinction), and a B
 ### Teaching background
 
 A postgraduate teaching qualification, university teaching assistant, and mathematics teacher. I explain things clearly, not just run your analysis.
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
-::: {.credibility-card}
-### Reproducible workflow
-
-Every analysis in R with Quarto reports you can verify, re-run, and hand to your supervisor with confidence.
 :::
 :::
 

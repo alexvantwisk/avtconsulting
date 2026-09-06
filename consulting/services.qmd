@@ -73,6 +73,10 @@ Rates are student-friendly. After the free initial consultation you'll receive a
 
 It depends on the scope: a sample size calculation might take a few days, while a full analysis with reporting can take a few weeks. Tell me your deadlines up front and I'll let you know honestly whether they're feasible.
 
+### Are you taking on projects during your PhD?
+
+Yes, in limited numbers. I run a few projects at a time alongside my research, so I may propose a start date rather than begin immediately. Tell me your deadline up front and I'll say honestly whether I can meet it.
+
 ### What software do you use?
 
 All analysis is done in R, delivered as a reproducible Quarto report you can re-run and verify. Your data can come from wherever it lives: REDCap, Excel, SPSS, Stata, or CSV exports all work, and you don't need to use R yourself.
@@ -83,7 +87,7 @@ That's up to you and your institution's guidelines. For most projects an acknowl
 
 ### Is my data kept confidential?
 
-Yes. Your data is stored securely, never shared, handled in line with POPIA and the conditions of your ethics approval, and deleted after the project closes if you wish.
+Yes. Your data is stored securely, never shared, handled in line with POPIA, with UK GDPR where it applies, and the conditions of your ethics approval, and deleted after the project closes if you wish.
 
 ### Can you speak to my supervisor?
 
