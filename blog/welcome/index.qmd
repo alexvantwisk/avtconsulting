@@ -1,0 +1,20 @@
+---
+title: "Welcome"
+description: "What this site is for and what I plan to write about."
+date: 2026-09-06
+categories: [Essays]
+---
+
+This site started life as the home of my consulting practice. It is now my personal site: an online [CV](../../cv.qmd), this blog, and the [consulting](../../consulting/index.qmd) pages, which stay for researchers who need statistical help.
+
+I'm a biostatistician. From October 2026 I'm a PhD student at the MRC Biostatistics Unit in Cambridge, working on response-adaptive designs for clinical trials. Before that I spent a little over a year at a clinical research organisation in Pretoria, where I went from intern to lead statistician on regulatory bioequivalence submissions.
+
+Here is what I expect to write about:
+
+- **Statistics and R.** Worked examples of the methods researchers ask me about most, with the code.
+- **Clinical trials.** Adaptive designs, the gap between what is optimal on paper and what runs in practice, and what I learn along the way in the PhD.
+- **The occasional essay** on aviation, geopolitical history, or whatever else has my attention.
+
+Technical posts carry their code so you can run them yourself. If you would like new posts delivered, subscribe to the [RSS feed](../index.xml).
+
+{{< include ../_post-footer.qmd >}}
