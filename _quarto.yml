@@ -20,6 +20,8 @@ website:
     left:
       - href: about.qmd
         text: About
+      - href: cv.qmd
+        text: CV
     right:
       - href: consulting/index.qmd
         text: Consulting

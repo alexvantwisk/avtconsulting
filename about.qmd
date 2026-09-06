@@ -27,4 +27,4 @@ Away from statistics I am known for a steady supply of interesting facts and a l
 
 ## Working with me
 
-If you are a researcher looking for statistical help with a study, see the [consulting](consulting/index.qmd) pages. The full record of degrees, roles, and talks is on the CV page.
+If you are a researcher looking for statistical help with a study, see the [consulting](consulting/index.qmd) pages. The full record of degrees, roles, and talks is on the [CV](cv.qmd) page.

@@ -31,23 +31,33 @@ description: "Alexander van Twisk is a biostatistician and PhD student at the MR
 
 :::: {.grid}
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-4}
 ::: {.service-card}
-### Consulting
+### CV
 
-Statistical support for researchers in the medical and public health sciences, from study design to publication. A limited number of projects run alongside the PhD.
+Degrees, roles, talks, and research projects.
 
-[Consulting &rarr;](consulting/index.qmd)
+[Read the CV &rarr;](cv.qmd)
 :::
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-4}
 ::: {.service-card .service-card-sage}
 ### About
 
 The path from applied mathematics to trial methodology, and what the PhD is about.
 
 [About me &rarr;](about.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.service-card .service-card-teal}
+### Consulting
+
+Statistical support for researchers in the medical and public health sciences, from study design to publication.
+
+[Consulting &rarr;](consulting/index.qmd)
 :::
 :::
 
