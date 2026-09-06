@@ -1,6 +1,14 @@
 ---
 pagetitle: "Alexander van Twisk | Biostatistician"
 description: "Alexander van Twisk is a biostatistician and PhD student at the MRC Biostatistics Unit, University of Cambridge, writing about statistics, R, and clinical trial methodology."
+listing:
+  id: latest-posts
+  contents: blog/*/index.qmd
+  sort: "date desc"
+  max-items: 3
+  type: grid
+  grid-columns: 3
+  fields: [date, title, description]
 ---
 
 ::: {.hero}
@@ -19,13 +27,20 @@ description: "Alexander van Twisk is a biostatistician and PhD student at the MR
 
 [I work on how clinical trials can adapt as they learn, and on making good statistics practical for the researchers who need it. I write here about statistics, R, and trial methodology, and now and then about aviation and history.]{.lead}
 
-[About me](about.qmd){.btn-cta} [Consulting](consulting/index.qmd){.btn-cta .btn-cta-secondary}
+[Read the blog](blog/index.qmd){.btn-cta} [Consulting](consulting/index.qmd){.btn-cta .btn-cta-secondary}
 
 :::
 
 ::::
 
 :::
+
+## Latest writing
+
+::: {#latest-posts}
+:::
+
+[All posts &rarr;](blog/index.qmd)
 
 ## Elsewhere on this site
 

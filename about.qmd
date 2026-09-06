@@ -23,7 +23,7 @@ I came to this by way of applied mathematics, then biostatistics at Pretoria and
 
 I taught mathematics before any of this, at a high school and as a university teaching assistant, and I still enjoy explaining hard ideas clearly. My MSc thesis compared Hamiltonian Monte Carlo with Metropolis–Hastings sampling for Bayesian survival analysis of weighted, interval-censored HIV survey data, and I presented that work at the South African Statistical Association's annual conference.
 
-Away from statistics I am known for a steady supply of interesting facts and a love of aviation and geopolitical history. Some of that will end up on the blog.
+Away from statistics I am known for a steady supply of interesting facts and a love of aviation and geopolitical history. Some of that will end up on the [blog](blog/index.qmd).
 
 ## Working with me
 

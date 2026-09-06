@@ -26,3 +26,32 @@ Quarto is pinned to 1.9.36 in `.github/workflows/publish.yml`. Keep your local v
 ## Deploy
 
 Push to `main`. The workflow renders the site, runs an offline link check, and deploys. Pull requests run the render and link check only.
+
+## Writing a blog post
+
+1. Create `blog/<slug>/index.qmd`. The slug is the URL; keep it short and lower-case with hyphens, no date.
+2. Front matter:
+
+   ```yaml
+   ---
+   title: "Post title"
+   description: "One sentence shown in the listing and the feed."
+   date: 2026-09-06
+   categories: [Statistics, R]   # free-form; existing: R, Statistics, Clinical trials, PhD, Aviation, History, Essays
+   draft: true                   # remove to publish; drafts show in quarto preview only
+   ---
+   ```
+
+3. End the post with `{{< include ../_post-footer.qmd >}}` for the "All posts" link.
+4. Put images in the post's folder and reference them by file name.
+5. **If the post has R code**, render it locally so the outputs are frozen, then commit both:
+
+   ```bash
+   quarto render blog/<slug>/index.qmd
+   git add blog/<slug>/ _freeze/blog/<slug>/
+   ```
+
+   CI has no R. It reuses `_freeze/`. If you edit an R post and forget to render, CI publishes the previous outputs.
+6. Prose posts need no render step beyond checking `quarto preview`.
+
+The feed is at `/blog/index.xml`. Search indexes posts automatically.
